@@ -48,10 +48,11 @@ provider "google" {
   }
   metadata_startup_script = <<EOF
 #!/bin/bash
-apt update -y
-apt install apache2 -y
+sudo apt update -y
+sudo apt install apache2 -y
+sudo chmod 777 /var/www/html/index.html 
 echo "<h2>Shabak Shalom this is WebServer on GCP Build with Terraform by Michael Kravtsiv<h2>" > /var/www/html/index.html
-systemctl restart apache2
+sudo systemctl restart apache2
 EOF
   
   depends_on = [google_compute_firewall.web]
