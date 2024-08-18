@@ -38,7 +38,7 @@ provider "google" {
   machine_type = "f1-micro"
   boot_disk {
     initialize_params {
-      image = "debian-cloud/debian-9"
+      image = "debian-cloud/debian-12"
     }
   }
   
