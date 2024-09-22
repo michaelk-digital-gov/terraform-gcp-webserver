@@ -1,8 +1,5 @@
 ID project:terraform-gcp-432819
 Role Name: project-terraform-gcp-432819
-Description
-Created on: 2024-08-18
-
 47 assigned permissions
 compute.disks.create
 compute.disks.createSnapshot
