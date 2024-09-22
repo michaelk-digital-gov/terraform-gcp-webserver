@@ -1,5 +1,7 @@
 ID project:terraform-gcp-432819
+
 Role Name: project-terraform-gcp-432819
+
 SA: terraform@terraform-gcp-432819.iam.gserviceaccount.com
 
 47 assigned permissions
